@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    max-width: 1500px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header part start  */
+.header header {
+    background-color: white;
+    gap:43% ;
+    padding: 38px;
+    
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.header header a i{
+    font-size: 30px;
+    color: black;  
+}
+.header header a{
+    text-decoration: none;
+
+}
+.header header a h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
+/* header part end */
+
+/* Hero part start  */
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.heading h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.heading span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #888888;
+}
+
+.blog{
+    margin: 30px 0;
+}
+.blog p {
+    margin-top: 20px;
+}
+.icons{
+    margin:40px -10px 60px 0;
+}
+.icons a{ 
+    text-decoration: none;
+}
+.icons a i{
+    width: 40px;
+    height: 40px;
+    background-color: #EEEEEE;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* Hero part end */
+
+/* comment section style start  */
+.comment-sec h3{
+    font-family: "open sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text-area{
+    margin-bottom: 80px;
+}
+.text-area textarea{
+    width: 800px;
+    height: 120px;
+    background-color: #F5F5F5;
+    border: 1px solid #D0D0D0;
+}
+.text-area a button{
+    background-color: #555555;
+    font-family: "open sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 5px 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    clear: both;
+}
+
+.com-content a img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.com-content p{
+    padding: 12px;
+    background-color: #EEEEEE;
+    font-family: "open sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    
+}
+.com-content{
+    margin: 30px 0;
+}
+.com-content span{
+    font-family: 'open sans';
+    font-size: 12px;
+    font-weight: 500;
+    color: #888888;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+/* comment section style end */
+
+/* post section style start  */
+.post{
+    padding: 80px 0;
+}
+.post h3{
+    font-family: "open sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+.post-con{
+    gap:15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.post-con img{
+    Width:256px;
+    Height:140px;
+    margin-bottom: 8px;
+}
+.post-con div p{
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+.bottom span{
+    font-family: "'Montserrat', sans-serif";
+    font-size: 12px;
+    font-weight: 400;
+    color: #888888;
+    
+}
+/* post section style end */
